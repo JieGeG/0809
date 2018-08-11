@@ -1,11 +1,11 @@
 ﻿less:
-先引入<link rel="stylesheet/less" type="text/css" href="styles.less">
-然后在<head>里引入<script src="less.js" type="text/javascript"></script>
-注意less样式文件一定要在引入less.js前引入
-
 安装步骤：
 npm install less
 （最新版本）npm install less@lateast
+
+先引入<link rel="stylesheet/less" type="text/css" href="styles.less">
+然后在<head>里引入<script src="less.js" type="text/javascript"></script>
+注意less样式文件一定要在引入less.js前引入
 
 可以在main文件中通过下面的形式引入.less文件，.less后缀可带可不带
 @import "lib.less";
